@@ -1,0 +1,67 @@
+:root{
+    --main-background-color: #001a33;
+
+    --post-background-color: #004080;
+    --post-border-color: #0066cc;
+    --post-color: #b3d9ff;
+    --post-id-color: #b3d9ff;
+
+    --highlight-color: #ff8533;
+}
+
+body {
+    background: var(--main-background-color);
+}
+.float-right {
+    float: right;
+}
+.container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.post-body {
+    padding: 5px;
+    background: var(--post-background-color);
+    border: solid 1px var(--post-border-color);
+    font-family: sans-serif;
+    font-size: 0.95em;
+    color: var(--post-color);
+}
+.post-header {
+    margin-bottom: 10px;
+}
+.post-name {
+    color: var(--highlight-color);
+}
+.post-title {
+    color: var(--post-color);
+}
+.post-time {
+    color: var(--post-color);
+}
+.post-id {
+    color: var(--post-id-color);
+}
+.post-image {
+    overflow: hidden;
+}
+.post-image img {
+    float: left;
+    cursor: pointer;
+}
+.post-content {
+    color: var(--post-color);
+}
+a:active {
+    color: var(--post-color);
+}
+a:link {
+    color: var(--post-color);
+}
+a:visited {
+    color: var(--post-color);
+}
+a:hover {
+    color: var(--highlight-color);
+}
